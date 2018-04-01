@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    build: .
+    environment:
+      SS_PROXY_ENABLE: 'False'
+      MONGO_IP: 
+      MONGO_PORT:
+      MONGO_USER:
+      MONGO_PASSWORD:

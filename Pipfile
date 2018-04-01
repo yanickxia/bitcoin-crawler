@@ -1,0 +1,22 @@
+[[source]]
+
+url = "http://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = false
+name = "pypi"
+
+
+[packages]
+
+requests = "*"
+pysocks = "*"
+schedule = "*"
+pymongo = "*"
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "3.6"

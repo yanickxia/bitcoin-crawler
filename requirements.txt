@@ -1,8 +1,10 @@
-certifi==2018.1.18
+-i http://mirrors.aliyun.com/pypi/simple/
+--trusted-host mirrors.aliyun.com
+certifi==2019.9.11
 chardet==3.0.4
-idna==2.6
+idna==2.7
 pymongo==3.6.1
-PySocks==1.6.8
-requests==2.18.4
+pysocks==1.6.8
+requests==2.20.0
 schedule==0.5.0
-urllib3==1.22
+urllib3==1.24.3
